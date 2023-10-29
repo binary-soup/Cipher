@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+
+    background-color:slategrey;
+}
+
+#plain-segment {
+    margin-top: 35px;
+}
+
+#key-form {
+    padding-top: 15px;
+}
+
+#plain {
+    text-align: center;
+}
+
+#links {
+    margin-bottom: -15px;
+}

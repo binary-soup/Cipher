@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="ui container">
+        <div class="ui raised padded segment">
+            <h2 class="ui center aligned header">
+                <a id="video-link" href="https://youtube.com/@binary_soup" target="_blank">Test Question (key=foobar)</a>
+            </h2>
+            <div class="ui divider"></div>
+            <div class="ui teal inverted padded segment">
+                <h1 id="cipher" class="ui center aligned header">YVWT ZX O QLJGHJOE?</h1>
+                <h2 class="ui center aligned icon header">
+                    <i id="arrow-icon" class="arrow alternate circle down icon white"></i>
+                </h2>
+                <div id="plain-segment" class="ui segment">
+                    <h3 id="plain">???</h3>
+                </div>
+            </div>
+            <div class="ui divider"></div>
+            <form id="key-form" class="ui large form">
+                <div id="key-field" class="field">
+                    <div class="fields">
+                        <div class="two wide field"></div>
+                        <div class="nine wide field">
+                            <input id="key-input" type="text" placeholder="Enter Key">
+                        </div>
+                        <div class="three wide field">
+                            <div id="decode-button" class="fluid ui large blue labeled icon submit button">
+                                <i class="key icon"></i>
+                                DECODE
+                            </div>
+                        </div>
+                        <div class="two wide field"></div>
+                    </div>
+                </div>
+            </form>
+            <div id="links" class="ui basic center aligned segment">
+                <div class="ui celled horizontal list">
+                    <a class="item" href="https://en.wikipedia.org/wiki/Vigenère_cipher" target="_blank">
+                        What is a Vigenère Cipher?
+                    </a>
+                    <a id="hint-link" class="item">Need a Key Location Hint?</a>
+                </div>
+                <input id="hint-input" type="hidden"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="ciphers.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
